@@ -1,0 +1,29 @@
+.lorem-ipsum{
+    padding:10px;
+    border:1px solid red;
+    margin: 10px;
+}
+
+#levus-popup{
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index: 99999;
+}
+
+#levus-popup-content{
+    width: 300px;
+    height: 300px; 
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: -150px 0 0 -150px;
+    background: red;
+}
+
+#levus-popup.show{
+    display: block;
+}
